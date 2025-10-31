@@ -1,0 +1,22 @@
+description: Model graded llm-rubric example
+
+prompts:
+  - |
+    Answer the following question without many details: {{question}}
+
+providers:
+  - id: openai:gpt-4.1
+  - id: anthropic:messages:claude-opus-4-1-20250805
+
+tests:
+  - vars:
+      question: What is the capital of France?
+    assert:
+      - type: llm-rubric
+        value: 'Provides a direct answer to the question: "{{question}}" without unnecessary elaboration'
+
+  - vars:
+      question: How many planets are in our solar system?
+    assert:
+      - type: llm-rubric
+        value: 'Provides a direct answer to the question: "{{question}}" without unnecessary elaboration'

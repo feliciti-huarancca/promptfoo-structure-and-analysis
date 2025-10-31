@@ -1,0 +1,12 @@
+description: OpenAI & Anthropic Claude provider config
+
+providers:
+  - file://../providers/providers.yaml
+  - file://../providers/lmstudio.yaml
+
+prompts:
+  - 'What the meaning of: {{ text }} ?'
+
+tests:
+  - vars:
+      text: 'consciousness'

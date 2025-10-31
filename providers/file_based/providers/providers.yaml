@@ -1,0 +1,13 @@
+# OpenAI GPT-4.1
+- id: openai:gpt-4.1
+  label: OpenAI GPT-4.1
+  config:
+    temperature: 0.7
+    max_tokens: 150
+
+# Anthropic Claude
+- id: anthropic:messages:claude-opus-4-1-20250805
+  label: Anthropic Claude
+  config:
+    temperature: 0.7
+    max_tokens: 150

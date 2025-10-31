@@ -1,0 +1,13 @@
+description: Simple prompt to test deterministic equals assertion
+
+providers:
+  - id: openai:gpt-4.1
+  - id: anthropic:messages:claude-opus-4-1-20250805
+
+prompts:
+  - 'What is the capital of France?'
+
+tests:
+  - assert:
+      - type: regex
+        value: "Paris"

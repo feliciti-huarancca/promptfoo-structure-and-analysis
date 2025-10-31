@@ -1,0 +1,19 @@
+description: OpenAI & Anthropic Claude provider config
+
+providers:
+  - id: openai:gpt-4.1
+    config:
+      temperature: 0.7
+      max_tokens: 300
+
+  - id: anthropic:messages:claude-opus-4-1-20250805
+    config:
+      temperature: 0.7
+      max_tokens: 300
+
+prompts:
+  - 'What the meaning of: {{ text }} ?'
+
+tests:
+  - vars:
+      text: 'consciousness'

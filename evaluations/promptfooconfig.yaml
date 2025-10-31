@@ -1,0 +1,24 @@
+description: Compare how different AI providers generate a personalized, friendly greeting using the user's name.
+
+providers:
+  - id: openai:gpt-4.1
+    label: 'OpenAI GPT-4.1'
+  - id: openai:gpt-4o
+    label: "OpenAI GPT-4o"
+  - id: anthropic:messages:claude-opus-4-1-20250805
+    label: 'Anthropic Claude Opus 4-1'
+  - id: anthropic:messages:claude-sonnet-4-20250514
+    label: "Anthropic Claude Sonnet 4"
+
+prompts:
+  - 'Greet {{name}}.'
+  - |
+    'You are a friendly assistant. 
+    Greet the user with a warm welcome message using them name: {{name}}.'
+
+tests:
+  - vars:
+      name: "Feliciti"
+    assert:
+      - type: icontains
+        value: "Feliciti"

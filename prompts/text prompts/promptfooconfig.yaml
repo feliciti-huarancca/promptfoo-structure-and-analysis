@@ -1,0 +1,22 @@
+description: Single line prompts example
+
+prompts:
+  - 'Compare {{option1}} and {{option2}} for {{use_case}}. Give pros, cons, and a recommendation.'
+  - 'Provide a small code example for {{option1}} and {{option2}} in the context of {{use_case}} using {{language}}.'
+
+providers:
+  - id: openai:gpt-4.1
+  - id: anthropic:messages:claude-opus-4-1-20250805
+
+tests:
+  - vars:
+      option1: 'Playwright'
+      option2: 'Selenium'
+      use_case: 'web application testing'
+      language: 'Python'
+
+  - vars:
+      option1: 'React'
+      option2: 'Vue'
+      use_case: 'building a single-page application'
+      language: 'TypeScript'

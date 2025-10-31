@@ -1,0 +1,3 @@
+prompt,input_text,assertion_type,assertion_value
+"Summarize this: {{input_text}}","Long article text",icontains,summary
+"Translate this: {{input_text}}","Hello world",icontains,hola

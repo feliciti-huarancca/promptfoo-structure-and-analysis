@@ -1,0 +1,24 @@
+description: Multiple assertions example using threshold, weights, and metrics
+
+prompts:
+  - 'What is the capital of Peru?'
+
+providers:
+  - openai:gpt-4.1
+  - anthropic:claude-3-7-sonnet-20250219
+
+tests:
+  - threshold: 0.8
+    assert:
+      - type: factuality
+        value: "Lima is the capital of Peru."
+        weight: 3
+        metric: Accuracy
+      - type: icontains
+        value: "Lima"
+        weight: 1
+        metric: Accuracy
+      - type: llm-rubric
+        value: "Answer only the city name (no extra sentences)."
+        weight: 1
+        metric: Conciseness

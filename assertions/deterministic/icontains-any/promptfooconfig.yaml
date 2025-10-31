@@ -1,0 +1,17 @@
+description: Simple prompt to test deterministic icontains-any assertion
+
+prompts:
+  - 'Compare {{option1}} and {{option2}} for {{use_case}}. Give pros, cons, and a recommendation.'
+
+providers:
+  - id: openai:gpt-4.1
+  - id: anthropic:messages:claude-opus-4-1-20250805
+
+tests:
+  - vars:
+      option1: 'Playwright'
+      option2: 'Selenium'
+      use_case: 'web application testing'
+    assert:
+      - type: icontains-any
+        value: ['playwright', 'selenium', 'pros', 'cons', 'recommendation']

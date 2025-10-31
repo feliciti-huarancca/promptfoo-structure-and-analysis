@@ -1,0 +1,5 @@
+Provide a small code example for {{option1}} and {{option2}}
+
+in the context of {{use_case}} using the following programming language:
+
+{{language}}.

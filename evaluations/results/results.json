@@ -1,0 +1,1044 @@
+{
+  "evalId": "eval-5wU-2025-10-30T22:34:26",
+  "results": {
+    "version": 3,
+    "timestamp": "2025-10-30T22:34:26.139Z",
+    "prompts": [
+      {
+        "raw": "Greet {{name}}.",
+        "label": "Greet {{name}}.",
+        "id": "51fce8a643aa8364bafc212ccddc691da9fbf4e320b93c45864ff82a4da28b11",
+        "provider": "OpenAI GPT-4.1",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 1,
+          "assertFailCount": 0,
+          "totalLatencyMs": 2920,
+          "tokenUsage": {
+            "prompt": 13,
+            "completion": 14,
+            "cached": 0,
+            "total": 27,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.000138
+        }
+      },
+      {
+        "raw": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n",
+        "label": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n",
+        "id": "3166654f59e8e79f60c9fbfd5a4041ee6eab342ee6758d4afb63d07ca2bc2e08",
+        "provider": "OpenAI GPT-4.1",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 1,
+          "assertFailCount": 0,
+          "totalLatencyMs": 1432,
+          "tokenUsage": {
+            "prompt": 32,
+            "completion": 23,
+            "cached": 0,
+            "total": 55,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.000248
+        }
+      },
+      {
+        "raw": "Greet {{name}}.",
+        "label": "Greet {{name}}.",
+        "id": "51fce8a643aa8364bafc212ccddc691da9fbf4e320b93c45864ff82a4da28b11",
+        "provider": "OpenAI GPT-4o",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 1,
+          "assertFailCount": 0,
+          "totalLatencyMs": 1723,
+          "tokenUsage": {
+            "prompt": 13,
+            "completion": 11,
+            "cached": 0,
+            "total": 24,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.0001425
+        }
+      },
+      {
+        "raw": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n",
+        "label": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n",
+        "id": "3166654f59e8e79f60c9fbfd5a4041ee6eab342ee6758d4afb63d07ca2bc2e08",
+        "provider": "OpenAI GPT-4o",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 1,
+          "assertFailCount": 0,
+          "totalLatencyMs": 1262,
+          "tokenUsage": {
+            "prompt": 32,
+            "completion": 43,
+            "cached": 0,
+            "total": 75,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.00051
+        }
+      },
+      {
+        "raw": "Greet {{name}}.",
+        "label": "Greet {{name}}.",
+        "id": "51fce8a643aa8364bafc212ccddc691da9fbf4e320b93c45864ff82a4da28b11",
+        "provider": "Anthropic Claude Opus 4-1",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 1,
+          "assertFailCount": 0,
+          "totalLatencyMs": 1921,
+          "tokenUsage": {
+            "prompt": 15,
+            "completion": 25,
+            "cached": 0,
+            "total": 40,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.0021
+        }
+      },
+      {
+        "raw": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n",
+        "label": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n",
+        "id": "3166654f59e8e79f60c9fbfd5a4041ee6eab342ee6758d4afb63d07ca2bc2e08",
+        "provider": "Anthropic Claude Opus 4-1",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 1,
+          "assertFailCount": 0,
+          "totalLatencyMs": 6096,
+          "tokenUsage": {
+            "prompt": 35,
+            "completion": 86,
+            "cached": 0,
+            "total": 121,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.006974999999999999
+        }
+      },
+      {
+        "raw": "Greet {{name}}.",
+        "label": "Greet {{name}}.",
+        "id": "51fce8a643aa8364bafc212ccddc691da9fbf4e320b93c45864ff82a4da28b11",
+        "provider": "Anthropic Claude Sonnet 4",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 1,
+          "assertFailCount": 0,
+          "totalLatencyMs": 2090,
+          "tokenUsage": {
+            "prompt": 15,
+            "completion": 22,
+            "cached": 0,
+            "total": 37,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.000375
+        }
+      },
+      {
+        "raw": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n",
+        "label": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n",
+        "id": "3166654f59e8e79f60c9fbfd5a4041ee6eab342ee6758d4afb63d07ca2bc2e08",
+        "provider": "Anthropic Claude Sonnet 4",
+        "metrics": {
+          "score": 1,
+          "testPassCount": 1,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "assertPassCount": 1,
+          "assertFailCount": 0,
+          "totalLatencyMs": 3839,
+          "tokenUsage": {
+            "prompt": 35,
+            "completion": 82,
+            "cached": 0,
+            "total": 117,
+            "numRequests": 1,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.001335
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0.00051,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Feliciti"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "ce1abae7-bf64-46f3-b8bf-c0246da9490b",
+        "latencyMs": 1262,
+        "namedScores": {},
+        "prompt": {
+          "raw": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: Feliciti.'\n",
+          "label": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n"
+        },
+        "promptId": "3166654f59e8e79f60c9fbfd5a4041ee6eab342ee6758d4afb63d07ca2bc2e08",
+        "promptIdx": 3,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": "OpenAI GPT-4o"
+        },
+        "response": {
+          "output": "Hello Feliciti! 🌟 Welcome! I'm so excited to have you here. If there's anything you need help with or just want to chat, feel free to reach out. Hope you're having a fantastic day!",
+          "tokenUsage": {
+            "total": 75,
+            "prompt": 32,
+            "completion": 43,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.00051
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "name": "Feliciti"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Feliciti"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "name": "Feliciti"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000248,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Feliciti"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "8c6edc36-3e10-4984-97e4-767d9d08caaf",
+        "latencyMs": 1432,
+        "namedScores": {},
+        "prompt": {
+          "raw": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: Feliciti.'\n",
+          "label": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n"
+        },
+        "promptId": "3166654f59e8e79f60c9fbfd5a4041ee6eab342ee6758d4afb63d07ca2bc2e08",
+        "promptIdx": 1,
+        "provider": {
+          "id": "openai:gpt-4.1",
+          "label": "OpenAI GPT-4.1"
+        },
+        "response": {
+          "output": "Hello, Feliciti! 🌸 Welcome! I'm so glad you're here. How can I assist you today?",
+          "tokenUsage": {
+            "total": 55,
+            "prompt": 32,
+            "completion": 23,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.000248
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "name": "Feliciti"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Feliciti"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "name": "Feliciti"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.0001425,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Feliciti"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "d45d9ddc-2201-4a87-83a5-0564469bfb47",
+        "latencyMs": 1723,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Greet Feliciti.",
+          "label": "Greet {{name}}."
+        },
+        "promptId": "51fce8a643aa8364bafc212ccddc691da9fbf4e320b93c45864ff82a4da28b11",
+        "promptIdx": 2,
+        "provider": {
+          "id": "openai:gpt-4o",
+          "label": "OpenAI GPT-4o"
+        },
+        "response": {
+          "output": "Hello, Feliciti! How are you today?",
+          "tokenUsage": {
+            "total": 24,
+            "prompt": 13,
+            "completion": 11,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.0001425
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "name": "Feliciti"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Feliciti"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "name": "Feliciti"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000138,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Feliciti"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "6c09db47-7224-431b-b312-233e99f99ee5",
+        "latencyMs": 2920,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Greet Feliciti.",
+          "label": "Greet {{name}}."
+        },
+        "promptId": "51fce8a643aa8364bafc212ccddc691da9fbf4e320b93c45864ff82a4da28b11",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-4.1",
+          "label": "OpenAI GPT-4.1"
+        },
+        "response": {
+          "output": "Hello, Feliciti! 😊 How can I assist you today?",
+          "tokenUsage": {
+            "total": 27,
+            "prompt": 13,
+            "completion": 14,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0
+            }
+          },
+          "cached": false,
+          "finishReason": "stop",
+          "cost": 0.000138
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "name": "Feliciti"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Feliciti"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "name": "Feliciti"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.0021,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Feliciti"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "5bcf912b-f109-4792-8793-7e0ca26b36c7",
+        "latencyMs": 1921,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Greet Feliciti.",
+          "label": "Greet {{name}}."
+        },
+        "promptId": "51fce8a643aa8364bafc212ccddc691da9fbf4e320b93c45864ff82a4da28b11",
+        "promptIdx": 4,
+        "provider": {
+          "id": "anthropic:messages:claude-opus-4-1-20250805",
+          "label": "Anthropic Claude Opus 4-1"
+        },
+        "response": {
+          "output": "Hello Feliciti! It's nice to meet you. I hope you're having a wonderful day!",
+          "tokenUsage": {
+            "total": 40,
+            "prompt": 15,
+            "completion": 25
+          },
+          "finishReason": "stop",
+          "cost": 0.0021
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "name": "Feliciti"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Feliciti"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "name": "Feliciti"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.000375,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Feliciti"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "e1845fa1-6e0e-49f1-9546-4f76d41eef3d",
+        "latencyMs": 2090,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Greet Feliciti.",
+          "label": "Greet {{name}}."
+        },
+        "promptId": "51fce8a643aa8364bafc212ccddc691da9fbf4e320b93c45864ff82a4da28b11",
+        "promptIdx": 6,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": "Anthropic Claude Sonnet 4"
+        },
+        "response": {
+          "output": "Hello Feliciti! It's nice to meet you. How are you doing today?",
+          "tokenUsage": {
+            "total": 37,
+            "prompt": 15,
+            "completion": 22
+          },
+          "finishReason": "stop",
+          "cost": 0.000375
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "name": "Feliciti"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Feliciti"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "name": "Feliciti"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.001335,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Feliciti"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "62b3c9e0-ded6-4e7a-bdcc-2e1c090e7a7a",
+        "latencyMs": 3839,
+        "namedScores": {},
+        "prompt": {
+          "raw": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: Feliciti.'\n",
+          "label": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n"
+        },
+        "promptId": "3166654f59e8e79f60c9fbfd5a4041ee6eab342ee6758d4afb63d07ca2bc2e08",
+        "promptIdx": 7,
+        "provider": {
+          "id": "anthropic:messages:claude-sonnet-4-20250514",
+          "label": "Anthropic Claude Sonnet 4"
+        },
+        "response": {
+          "output": "Hello Feliciti! 🌟 \n\nWhat a lovely name you have! I'm so happy to meet you today. I'm here to help you with whatever you need - whether you have questions, want to chat, need assistance with a project, or anything else that's on your mind. \n\nHow are you doing today, and what can I help you with?",
+          "tokenUsage": {
+            "total": 117,
+            "prompt": 35,
+            "completion": 82
+          },
+          "finishReason": "stop",
+          "cost": 0.001335
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "name": "Feliciti"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Feliciti"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "name": "Feliciti"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0.006974999999999999,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "icontains",
+                "value": "Feliciti"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "6daaaefb-7e94-4fd0-ba99-8e73460c49cf",
+        "latencyMs": 6096,
+        "namedScores": {},
+        "prompt": {
+          "raw": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: Feliciti.'\n",
+          "label": "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n"
+        },
+        "promptId": "3166654f59e8e79f60c9fbfd5a4041ee6eab342ee6758d4afb63d07ca2bc2e08",
+        "promptIdx": 5,
+        "provider": {
+          "id": "anthropic:messages:claude-opus-4-1-20250805",
+          "label": "Anthropic Claude Opus 4-1"
+        },
+        "response": {
+          "output": "Hello Feliciti! 🌟\n\nWhat a wonderful name you have! Welcome, and it's so lovely to meet you today. I'm here to help you with whatever you need - whether it's answering questions, brainstorming ideas, or just having a friendly chat. \n\nHow are you doing today, Feliciti? Is there anything I can assist you with?",
+          "tokenUsage": {
+            "total": 121,
+            "prompt": 35,
+            "completion": 86
+          },
+          "finishReason": "stop",
+          "cost": 0.006974999999999999
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "name": "Feliciti"
+          },
+          "assert": [
+            {
+              "type": "icontains",
+              "value": "Feliciti"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "name": "Feliciti"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      }
+    ],
+    "stats": {
+      "successes": 8,
+      "failures": 0,
+      "errors": 0,
+      "tokenUsage": {
+        "prompt": 190,
+        "completion": 306,
+        "cached": 0,
+        "total": 496,
+        "numRequests": 8,
+        "completionDetails": {
+          "reasoning": 0,
+          "acceptedPrediction": 0,
+          "rejectedPrediction": 0
+        },
+        "assertions": {
+          "total": 0,
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "numRequests": 0,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0
+          }
+        }
+      }
+    }
+  },
+  "config": {
+    "description": "Compare how different AI providers generate a personalized, friendly greeting using the user's name.",
+    "prompts": [
+      "Greet {{name}}.",
+      "'You are a friendly assistant. \nGreet the user with a warm welcome message using them name: {{name}}.'\n"
+    ],
+    "providers": [
+      {
+        "id": "openai:gpt-4.1",
+        "label": "OpenAI GPT-4.1"
+      },
+      {
+        "id": "openai:gpt-4o",
+        "label": "OpenAI GPT-4o"
+      },
+      {
+        "id": "anthropic:messages:claude-opus-4-1-20250805",
+        "label": "Anthropic Claude Opus 4-1"
+      },
+      {
+        "id": "anthropic:messages:claude-sonnet-4-20250514",
+        "label": "Anthropic Claude Sonnet 4"
+      }
+    ],
+    "tests": [
+      {
+        "vars": {
+          "name": "Feliciti"
+        },
+        "assert": [
+          {
+            "type": "icontains",
+            "value": "Feliciti"
+          }
+        ]
+      }
+    ],
+    "sharing": false,
+    "outputPath": [
+      "results/results.json"
+    ],
+    "extensions": []
+  },
+  "shareableUrl": null,
+  "metadata": {
+    "promptfooVersion": "0.118.11",
+    "nodeVersion": "v22.20.0",
+    "platform": "win32",
+    "arch": "x64",
+    "exportedAt": "2025-10-30T22:34:34.328Z",
+    "evaluationCreatedAt": "2025-10-30T22:34:26.139Z"
+  }
+}

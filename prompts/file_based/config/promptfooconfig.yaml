@@ -1,0 +1,22 @@
+description: File based prompts example
+
+prompts:
+  - id: file://../prompt_files/comparison_prompt.txt
+  - id: file://../prompt_files/code_example_prompt.txt
+
+providers:
+  - id: openai:gpt-4.1
+  - id: anthropic:messages:claude-opus-4-1-20250805
+
+tests:
+  - vars:
+      option1: 'Playwright'
+      option2: 'Selenium'
+      use_case: 'web application testing'
+      language: 'Python'
+
+  - vars:
+      option1: 'React'
+      option2: 'Vue'
+      use_case: 'building a single-page application'
+      language: 'TypeScript'

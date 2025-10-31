@@ -1,0 +1,21 @@
+description: Model graded factuality example
+
+prompts:
+  - 'What is the capital of {{state}}?'
+
+providers:
+  - openai:gpt-4.1
+  - anthropic:claude-3-7-sonnet-20250219
+
+tests:
+  - vars:
+      state: California
+    assert:
+      - type: factuality
+        value: Sacramento is the capital of California
+
+  - vars:
+      state: New York
+    assert:
+      - type: factuality
+        value: Albany is the capital city of New York state

@@ -1,0 +1,3 @@
+Compare {{option1}} and {{option2}} for {{use_case}}.
+
+Give pros, cons, and a recommendation.
