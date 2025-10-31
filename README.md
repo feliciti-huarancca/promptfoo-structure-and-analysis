@@ -27,10 +27,3 @@ This project demonstrates prompt engineering, evaluation, and analysis using [pr
 4. **Analyze results:**
   - Example: `python evaluations/src/analyze_results.py`
   - View cost, latency, and other metrics per provider and prompt.
-
-## What You’ll Learn
-
-- How prompt design (short vs. detailed) impacts cost, latency, and output quality.
-- How to compare multiple providers side by side.
-- How to use deterministic and model-graded assertions.
-- How to automate and analyze prompt evaluations at scale.
